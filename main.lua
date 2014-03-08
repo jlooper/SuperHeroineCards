@@ -1,4 +1,4 @@
-APIKEY = 'my_comic_vine_api_key'
+APIKEY = 'your_api_key'
 
 mod = require( "Mod" )
 mod:init( { apikey = APIKEY } )

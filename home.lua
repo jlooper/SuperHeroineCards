@@ -40,7 +40,7 @@ function scene:create( event )
 
 	local function moveCard(event)
 
-		if event.phase == "ended" then
+		if event.phase == "ended" and #heroines > 0 then
 
 			
 			local len = #heroines
